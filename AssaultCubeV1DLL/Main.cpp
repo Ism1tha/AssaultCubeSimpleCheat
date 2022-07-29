@@ -8,7 +8,6 @@ void showInjectionStatus();
 
 DWORD moduleBase;
 DWORD localPlayer;
-int health;
 
 BOOL WINAPI DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpReserved)
 {
